@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect x="4" y="4" width="92" height="92" rx="22" fill="#0e1116"/>
+  <rect x="4.75" y="4.75" width="90.5" height="90.5" rx="21.25" fill="none" stroke="#2347e6" stroke-width="1.5"/>
+  <g stroke="#e6b23c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <line x1="50" y1="50" x2="50" y2="10"/>
+    <line x1="50" y1="50" x2="78.28" y2="21.72"/>
+    <line x1="50" y1="50" x2="90" y2="50"/>
+    <line x1="50" y1="50" x2="78.28" y2="78.28"/>
+    <line x1="50" y1="50" x2="50" y2="90"/>
+    <line x1="50" y1="50" x2="21.72" y2="78.28"/>
+    <line x1="50" y1="50" x2="10" y2="50"/>
+    <line x1="50" y1="50" x2="21.72" y2="21.72"/>
+    <polygon points="50,42 55.66,44.34 58,50 55.66,55.66 50,58 44.34,55.66 42,50 44.34,44.34"/>
+    <polygon points="50,33 62.02,37.98 67,50 62.02,62.02 50,67 37.98,62.02 33,50 37.98,37.98"/>
+    <polygon points="50,24 68.38,31.62 76,50 68.38,68.38 50,76 31.62,68.38 24,50 31.62,31.62"/>
+  </g>
+  <circle cx="50" cy="50" r="2.6" fill="#f4d488"/>
+</svg>

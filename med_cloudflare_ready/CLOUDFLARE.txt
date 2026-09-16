@@ -1,0 +1,19 @@
+MINHA EMPRESA DIGITAL — CLOUDFLARE PAGES
+
+Esta versão foi preparada para Next.js Static Export.
+
+IMPORTANTE:
+- Não usar Drag & Drop com o código-fonte.
+- Colocar este projeto num repositório GitHub e ligar o repositório ao Cloudflare Pages.
+
+Configuração Cloudflare Pages:
+Framework preset: Next.js (Static HTML Export)
+Production branch: main
+Build command: npx next build
+Build output directory: out
+Root directory: / (raiz do projeto)
+
+O next.config.mjs já está configurado com output: 'export'.
+Os headers de segurança estão em public/_headers.
+
+Depois do primeiro deploy, o Cloudflare disponibiliza um endereço *.pages.dev.
