@@ -1,4 +1,5 @@
 import { ArrowRight, Star } from 'lucide-react'
+import { CHECKOUT_URL, CTA_LABEL } from '@/lib/site'
 
 export function Hero() {
   return (
@@ -21,12 +22,15 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-md text-lg leading-relaxed text-ink/60">
-            Uma presença digital profissional, simples e moderna para a tua
-            empresa.
+            Uma presença online profissional para a tua empresa, sem
+            complicações.
           </p>
 
           <div className="mt-8 flex items-center gap-5">
-            <div className="flex items-baseline gap-1.5">
+            <div className="flex items-baseline gap-2.5">
+              <span className="font-display text-2xl font-light text-ink/40 line-through decoration-ink/30">
+                297€
+              </span>
               <span className="font-display text-4xl font-semibold tracking-tight text-ink">
                 97€
               </span>
@@ -40,10 +44,10 @@ export function Hero() {
 
           <div className="mt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
             <a
-              href="#preco"
+              href={CHECKOUT_URL}
               className="group inline-flex items-center gap-2.5 rounded-full bg-brand px-7 py-4 text-[15px] font-semibold text-white shadow-lg shadow-brand/25 transition-all hover:bg-brand-hover hover:shadow-xl hover:shadow-brand/30"
             >
-              Quero a minha empresa online
+              {CTA_LABEL}
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
           </div>
